@@ -45,6 +45,12 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::main.main"
+    },
+    "Examples": {
+      "type": "richtext"
+    },
+    "Publications": {
+      "type": "richtext"
     }
   }
 }
