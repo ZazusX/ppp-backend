@@ -1,0 +1,63 @@
+{
+  "kind": "collectionType",
+  "collectionName": "profiles",
+  "info": {
+    "singularName": "profile",
+    "pluralName": "profiles",
+    "displayName": "Profile",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Profile_title": {
+      "type": "string"
+    },
+    "Slug": {
+      "type": "uid",
+      "targetField": "Profile_title"
+    },
+    "Basic_info": {
+      "type": "richtext",
+      "required": false
+    },
+    "Telephone": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "vCard": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "files"
+      ]
+    },
+    "Introduction": {
+      "type": "richtext"
+    },
+    "CV": {
+      "type": "richtext"
+    },
+    "Publications": {
+      "type": "richtext"
+    },
+    "Profile_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "sub_category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::sub.sub"
+    }
+  }
+}
