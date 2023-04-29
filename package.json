@@ -1,8 +1,8 @@
 {
-  "name": "strapi-sqlite",
+  "name": "ppp",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "backend",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -12,13 +12,11 @@
   "devDependencies": {},
   "dependencies": {
     "@strapi/plugin-i18n": "4.1.7",
-    "@strapi/strapi": "4.1.7",
     "@strapi/plugin-users-permissions": "4.1.7",
+    "@strapi/strapi": "4.1.7",
     "sqlite3": "^5.0.2"
   },
-  "author": {
-    "name": "A Strapi developer"
-  },
+  "author": "Jan Boldis",
   "strapi": {
     "uuid": "b4a9b934-98e8-401e-9f60-ad3319a3e359"
   },
@@ -26,5 +24,7 @@
     "node": ">=10.0.0",
     "npm": ">=6.0.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "https://github.com/ZazusX/ppp-backend.git"
 }
