@@ -4,7 +4,8 @@
   "info": {
     "singularName": "main",
     "pluralName": "mains",
-    "displayName": "Main Category"
+    "displayName": "Main Category",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -17,6 +18,16 @@
     "Slug": {
       "type": "uid",
       "targetField": "Title"
+    },
+    "page": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::page.page"
+    },
+    "profile": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::profile.profile"
     }
   }
 }
