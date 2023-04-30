@@ -11,9 +11,9 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi/plugin-i18n": "4.1.10",
-    "@strapi/plugin-users-permissions": "4.1.10",
-    "@strapi/strapi": "4.1.10",
+    "@strapi/plugin-i18n": "4.2.0",
+    "@strapi/plugin-users-permissions": "4.2.0",
+    "@strapi/strapi": "4.2.0",
     "sqlite3": "^5.0.2"
   },
   "author": "Jan Boldis",
